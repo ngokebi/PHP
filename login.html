@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+<body>
+    <div>
+        <p style = "font-family: Century Gothic; font-size: 15px;"> Login in to the Website</p>
+    </div>
+    <hr>
+    <fieldset>
+        <legend style = "font-family: Century Gothic; font-size: 15px;">Login Panel</legend>
+        <form action="login.php" method="POST" name="loginForm" onsubmit="return validate()">
+            <div>
+                <label for="username" style = "font-family: Century Gothic; font-size: 15px;"> Username:</label><br>
+                <input type="text" name="username" id="username" value="" size="30" style = "font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="usernameErr"></div>
+            </div>
+            <div>
+                <label for="password" style = "font-family: Century Gothic; font-size: 15px;"> Password:</label><br>
+                <input type="password" name="password" id="password" size="30" style = "font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="passwordErr"></div>
+            </div>
+            <div>
+                <br>
+                <input type="submit" value="Login" name="submit" style = "font-family: Century Gothic; font-size: 15px;">
+                <input type="reset" value="Reset" name="reset" style = "font-family: Century Gothic; font-size: 15px;">
+            </div>
+            <p style = "font-family: Century Gothic; font-size: 15px;"> Don't have an account? <a href="create.html" style = "font-family: Century Gothic; font-size: 15px;">Sign up now</a>.</p>
+        </form>
+    </fieldset>
+
+    <p  ></p>
+</body>
+</html>

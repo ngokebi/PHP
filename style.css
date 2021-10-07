@@ -1,0 +1,83 @@
+body {
+    background-color: BurlyWood;
+}
+
+#usernameErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#emailErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#firstnameErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#lastnameErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#addressErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#passwordErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+#confirm_passwordErr {
+    font-family: "Century Gothic" !important; 
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+table, tbody, thead, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    margin-left: 2px;
+    
+}
+
+table {
+    width: 70%;
+}
+thead {
+    text-align: center;
+}
+
+a, input {
+    font-family: "Century Gothic" !important; 
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Century Gothic" !important; 
+    color: grey;
+    font-size: 40px;
+}
+
+p {
+    font-family: "Century Gothic" !important; 
+    font-size: 15px;
+}

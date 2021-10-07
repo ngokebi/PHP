@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+
+<body>
+    <div>
+        <p style="font-family: Century Gothic; font-size: 15px;"> Sign up to the Database</p>
+    </div>
+    <hr>
+    <fieldset>
+        <legend style="font-family: Century Gothic; font-size: 15px;">Fill this Form</legend>
+        <form action="create.php" method="POST" name="contactForm" onsubmit="return validateForm()">
+            <div>
+                <label for="username" style="font-family: Century Gothic; font-size: 15px;"> Username:</label><br>
+                <input type="text" name="username" id="username" value="" size="30"
+                    style="font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="usernameErr"></div>
+            </div>
+            <div>
+                <label for="firstname" style="font-family: Century Gothic; font-size: 15px;"> Firstname:</label><br>
+                <input type="text" name="firstname" id="firstname" value="" size="30"
+                    style="font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="firstnameErr"></div>
+            </div>
+            <div>
+                <label for="lastname" style="font-family: Century Gothic; font-size: 15px;"> Lastname:</label><br>
+                <input type="text" name="lastname" id="lastname" value="" size="30"
+                    style="font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="lastnameErr"></div>
+            </div>
+            <div>
+                <label for="email" style="font-family: Century Gothic; font-size: 15px;"> Email:</label><br>
+                <input type="email" name="email" id="email" value="" size="30"
+                    style="font-family: Century Gothic; font-size: 15px;">
+                <div class="error" id="emailErr"></div>
+            </div>
+            <div>
+                <label for="address" style="font-family: Century Gothic; font-size: 15px;"> Address:</label><br>
+                <textarea name="address" id="address" cols="35" rows="5"
+                    style="font-family: Century Gothic; font-size: 15px;"></textarea>
+                <div class="error" id="addressErr"></div>
+            </div>
+            <div>
+                <label for="password" style="font-family: Century Gothic; font-size: 15px;"> Password:</label><br>
+                <input type="password" name="password" id="password" size="30">
+                <div class="error" id="passwordErr"></div>
+            </div>
+            <div>
+                <label for="confirm_password" style="font-family: Century Gothic; font-size: 15px;"> Confirm
+                    Password:</label><br>
+                <input type="password" name="confirm_password" id="confirm_password" size="30">
+                <div class="error" id="confirm_passwordErr"></div>
+            </div>
+            <div>
+                <br>
+                <input type="submit" value="Create Account" name="submit"
+                    style="font-family: Century Gothic; font-size: 15px;">
+                <input type="reset" value="Reset" name="reset" style="font-family: Century Gothic; font-size: 15px;" onclick="location.reload()">
+
+            </div>
+            <p style="font-family: Century Gothic; font-size: 15px;">Have an account? <a href="login.html"
+                    style="font-family: Century Gothic; font-size: 15px;">Login now</a>.</p>
+        </form>
+    </fieldset>
+</body>
+
+</html>
